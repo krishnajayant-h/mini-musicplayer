@@ -23,7 +23,7 @@ let next = document.getElementById('next');
 let gif = document.getElementById('gif');
 let bar = document.getElementById('bar');
 let songItem = Array.from(document.getElementsByClassName('o1'))
-gif.getElementsByTagName('img').src = 'photos/music.gif';
+
 plays.addEventListener('click', () => {
   if (tracka.paused || tracka.currentTime <= 0) {
     tracka.play();
